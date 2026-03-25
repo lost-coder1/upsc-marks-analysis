@@ -1,0 +1,37 @@
+UPSC Interview Bias Study — Data Quality Report
+=======================================================
+
+Total raw records: 5,352
+
+Records per year (raw):
+  2020:   761
+  2021:   685
+  2022:   933
+  2023: 1,016
+  2024:   999
+  2025:   958
+
+Duplicate rows removed: 0
+Missing interview marks: 0
+Missing category:        0
+Records after dropping missing: 5,352
+
+Interview out of range [0–275]: 0
+
+Clean records (final): 5,352
+
+Records per year × category (clean):
+category  General  OBC   SC  ST  EWS
+year                                
+2020          263  229  122  61   86
+2021          244  203  105  60   73
+2022          345  263  154  72   99
+2023          347  303  165  86  115
+2024          328  315  160  87  109
+2025          317  306  158  73  104
+
+Missing rate per column (clean dataset):
+  written_total: 0.0%
+  interview: 0.0%
+  final_total: 0.0%
+  category: 0.0%

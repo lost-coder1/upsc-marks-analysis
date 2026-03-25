@@ -1,0 +1,148 @@
+scope,test,statistic,p_value,effect_size,effect_size_type,interpretation
+pooled,Levene's Test,3.0795,0.0152,,,Variances differ significantly across categories (p<0.05).
+pooled,Shapiro-Wilk [General],0.9883,0.0,,,General interview marks are NOT normally distributed (p<0.05).
+pooled,Shapiro-Wilk [OBC],0.9954,0.0001,,,OBC interview marks are NOT normally distributed (p<0.05).
+pooled,Shapiro-Wilk [SC],0.9892,0.0,,,SC interview marks are NOT normally distributed (p<0.05).
+pooled,Shapiro-Wilk [ST],0.9924,0.0249,,,ST interview marks are NOT normally distributed (p<0.05).
+pooled,Shapiro-Wilk [EWS],0.9935,0.0129,,,EWS interview marks are NOT normally distributed (p<0.05).
+pooled,Welch t-test (General vs Reserved),14.6746,0.0,0.42,Cohen's d,General mean (181.2) is significantly different from reserved mean (174.1) — d=0.42 (small effect).
+pooled,One-way ANOVA,60.5077,0.0,0.0433,η²,"Significant difference in mean interview marks across categories (F=60.51, p=0.0000, η²=0.043)."
+pooled,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC'), ('General', 'ST'), ('OBC', 'SC'), ('OBC', 'ST')]"
+pooled,Kruskal-Wallis,226.5733,0.0,,,"Significant distributional difference across categories (H=226.57, p=0.0000)."
+pooled,Mann-Whitney U (General vs OBC),1791491.0,0.0,-0.2,rank-biserial r,"General significantly higher than OBC (U=1791491, p=0.0000, r=-0.20)."
+pooled,Mann-Whitney U (General vs SC),1021196.0,0.0,-0.282,rank-biserial r,"General significantly higher than SC (U=1021196, p=0.0000, r=-0.28)."
+pooled,Mann-Whitney U (General vs ST),525569.5,0.0,-0.298,rank-biserial r,"General significantly higher than ST (U=525570, p=0.0000, r=-0.30)."
+pooled,Mann-Whitney U (General vs EWS),665857.0,0.0,-0.232,rank-biserial r,"General significantly higher than EWS (U=665857, p=0.0000, r=-0.23)."
+pooled,Chi-square (category representation),1471.7201,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=1471.72, p=0.0000)."
+pooled,Linear regression written→interview [General],0.005,0.5686,0.0,R²,"For General: slope=0.005 (p=0.5686), R²=0.000. Non-significant written→interview relationship."
+pooled,Linear regression written→interview [OBC],-0.1055,0.0,0.045,R²,"For OBC: slope=-0.105 (p=0.0000), R²=0.045. Significant written→interview relationship."
+pooled,Linear regression written→interview [SC],-0.164,0.0,0.077,R²,"For SC: slope=-0.164 (p=0.0000), R²=0.077. Significant written→interview relationship."
+pooled,Linear regression written→interview [ST],-0.2389,0.0,0.147,R²,"For ST: slope=-0.239 (p=0.0000), R²=0.147. Significant written→interview relationship."
+pooled,Linear regression written→interview [EWS],-0.1536,0.0,0.08,R²,"For EWS: slope=-0.154 (p=0.0000), R²=0.080. Significant written→interview relationship."
+pooled,OLS Multiple Regression,81.2169,0.0,0.13,Adj. R²,"Model F=81.22 (p=0.0000), Adj.R²=0.130. Category coefficients (vs General): General=8.05, OBC=0.52, SC=-3.87, ST=-4.20"
+2020,Levene's Test,2.6314,0.0333,,,Variances differ significantly across categories (p<0.05).
+2020,Shapiro-Wilk [General],0.9882,0.0305,,,General interview marks are NOT normally distributed (p<0.05).
+2020,Shapiro-Wilk [OBC],0.9943,0.539,,,OBC interview marks are approximately normal (p≥0.05).
+2020,Shapiro-Wilk [SC],0.9899,0.511,,,SC interview marks are approximately normal (p≥0.05).
+2020,Shapiro-Wilk [ST],0.9734,0.2045,,,ST interview marks are approximately normal (p≥0.05).
+2020,Shapiro-Wilk [EWS],0.9866,0.5195,,,EWS interview marks are approximately normal (p≥0.05).
+2020,Welch t-test (General vs Reserved),6.6553,0.0,0.518,Cohen's d,General mean (178.2) is significantly different from reserved mean (169.8) — d=0.52 (medium effect).
+2020,One-way ANOVA,16.561,0.0,0.0806,η²,"Significant difference in mean interview marks across categories (F=16.56, p=0.0000, η²=0.081)."
+2020,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC'), ('General', 'ST'), ('OBC', 'SC'), ('OBC', 'ST')]"
+2020,Kruskal-Wallis,58.7994,0.0,,,"Significant distributional difference across categories (H=58.80, p=0.0000)."
+2020,Mann-Whitney U (General vs OBC),35521.0,0.0006,-0.18,rank-biserial r,"General significantly higher than OBC (U=35521, p=0.0006, r=-0.18)."
+2020,Mann-Whitney U (General vs SC),22107.5,0.0,-0.378,rank-biserial r,"General significantly higher than SC (U=22108, p=0.0000, r=-0.38)."
+2020,Mann-Whitney U (General vs ST),11377.5,0.0,-0.418,rank-biserial r,"General significantly higher than ST (U=11378, p=0.0000, r=-0.42)."
+2020,Mann-Whitney U (General vs EWS),14755.5,0.0,-0.305,rank-biserial r,"General significantly higher than EWS (U=14756, p=0.0000, r=-0.30)."
+2020,Chi-square (category representation),208.8489,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=208.85, p=0.0000)."
+2020,Linear regression written→interview [General],0.0455,0.0286,0.018,R²,"For General: slope=0.046 (p=0.0286), R²=0.018. Significant written→interview relationship."
+2020,Linear regression written→interview [OBC],-0.0356,0.0926,0.012,R²,"For OBC: slope=-0.036 (p=0.0926), R²=0.012. Non-significant written→interview relationship."
+2020,Linear regression written→interview [SC],-0.1913,0.0002,0.108,R²,"For SC: slope=-0.191 (p=0.0002), R²=0.108. Significant written→interview relationship."
+2020,Linear regression written→interview [ST],-0.3098,0.0001,0.219,R²,"For ST: slope=-0.310 (p=0.0001), R²=0.219. Significant written→interview relationship."
+2020,Linear regression written→interview [EWS],-0.2514,0.0001,0.16,R²,"For EWS: slope=-0.251 (p=0.0001), R²=0.160. Significant written→interview relationship."
+2020,OLS Multiple Regression,13.8595,0.0,0.078,Adj. R²,"Model F=13.86 (p=0.0000), Adj.R²=0.078. Category coefficients (vs General): General=9.77, OBC=4.01, SC=-3.32, ST=-3.73"
+2021,Levene's Test,0.3884,0.817,,,No significant difference in variances (p≥0.05).
+2021,Shapiro-Wilk [General],0.9707,0.0001,,,General interview marks are NOT normally distributed (p<0.05).
+2021,Shapiro-Wilk [OBC],0.9875,0.0727,,,OBC interview marks are approximately normal (p≥0.05).
+2021,Shapiro-Wilk [SC],0.9725,0.0277,,,SC interview marks are NOT normally distributed (p<0.05).
+2021,Shapiro-Wilk [ST],0.9533,0.0223,,,ST interview marks are NOT normally distributed (p<0.05).
+2021,Shapiro-Wilk [EWS],0.9768,0.1965,,,EWS interview marks are approximately normal (p≥0.05).
+2021,Welch t-test (General vs Reserved),5.8573,0.0,0.475,Cohen's d,General mean (174.7) is significantly different from reserved mean (167.2) — d=0.48 (small effect).
+2021,One-way ANOVA,12.2263,0.0,0.0671,η²,"Significant difference in mean interview marks across categories (F=12.23, p=0.0000, η²=0.067)."
+2021,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC'), ('General', 'ST'), ('OBC', 'ST')]"
+2021,Kruskal-Wallis,46.5285,0.0,,,"Significant distributional difference across categories (H=46.53, p=0.0000)."
+2021,Mann-Whitney U (General vs OBC),30091.5,0.0001,-0.215,rank-biserial r,"General significantly higher than OBC (U=30092, p=0.0001, r=-0.22)."
+2021,Mann-Whitney U (General vs SC),16376.0,0.0,-0.278,rank-biserial r,"General significantly higher than SC (U=16376, p=0.0000, r=-0.28)."
+2021,Mann-Whitney U (General vs ST),10789.0,0.0,-0.474,rank-biserial r,"General significantly higher than ST (U=10789, p=0.0000, r=-0.47)."
+2021,Mann-Whitney U (General vs EWS),11505.5,0.0002,-0.292,rank-biserial r,"General significantly higher than EWS (U=11506, p=0.0002, r=-0.29)."
+2021,Chi-square (category representation),196.0146,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=196.01, p=0.0000)."
+2021,Linear regression written→interview [General],-0.0038,0.8626,0.0,R²,"For General: slope=-0.004 (p=0.8626), R²=0.000. Non-significant written→interview relationship."
+2021,Linear regression written→interview [OBC],-0.0729,0.0296,0.023,R²,"For OBC: slope=-0.073 (p=0.0296), R²=0.023. Significant written→interview relationship."
+2021,Linear regression written→interview [SC],-0.0373,0.4539,0.005,R²,"For SC: slope=-0.037 (p=0.4539), R²=0.005. Non-significant written→interview relationship."
+2021,Linear regression written→interview [ST],-0.2695,0.0,0.253,R²,"For ST: slope=-0.269 (p=0.0000), R²=0.253. Significant written→interview relationship."
+2021,Linear regression written→interview [EWS],-0.2703,0.0001,0.19,R²,"For EWS: slope=-0.270 (p=0.0001), R²=0.190. Significant written→interview relationship."
+2021,OLS Multiple Regression,11.5816,0.0,0.072,Adj. R²,"Model F=11.58 (p=0.0000), Adj.R²=0.072. Category coefficients (vs General): General=8.64, OBC=2.15, SC=-1.27, ST=-7.08"
+2022,Levene's Test,4.798,0.0008,,,Variances differ significantly across categories (p<0.05).
+2022,Shapiro-Wilk [General],0.9789,0.0001,,,General interview marks are NOT normally distributed (p<0.05).
+2022,Shapiro-Wilk [OBC],0.9792,0.0007,,,OBC interview marks are NOT normally distributed (p<0.05).
+2022,Shapiro-Wilk [SC],0.9738,0.0049,,,SC interview marks are NOT normally distributed (p<0.05).
+2022,Shapiro-Wilk [ST],0.9798,0.3016,,,ST interview marks are approximately normal (p≥0.05).
+2022,Shapiro-Wilk [EWS],0.9835,0.2532,,,EWS interview marks are approximately normal (p≥0.05).
+2022,Welch t-test (General vs Reserved),6.0734,0.0,0.402,Cohen's d,General mean (178.2) is significantly different from reserved mean (172.0) — d=0.40 (small effect).
+2022,One-way ANOVA,14.0828,0.0,0.0572,η²,"Significant difference in mean interview marks across categories (F=14.08, p=0.0000, η²=0.057)."
+2022,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('EWS', 'SC'), ('General', 'OBC'), ('General', 'SC'), ('General', 'ST'), ('OBC', 'SC')]"
+2022,Kruskal-Wallis,47.9467,0.0,,,"Significant distributional difference across categories (H=47.95, p=0.0000)."
+2022,Mann-Whitney U (General vs OBC),52913.0,0.0004,-0.166,rank-biserial r,"General significantly higher than OBC (U=52913, p=0.0004, r=-0.17)."
+2022,Mann-Whitney U (General vs SC),35597.0,0.0,-0.34,rank-biserial r,"General significantly higher than SC (U=35597, p=0.0000, r=-0.34)."
+2022,Mann-Whitney U (General vs ST),16272.0,0.0,-0.31,rank-biserial r,"General significantly higher than ST (U=16272, p=0.0000, r=-0.31)."
+2022,Mann-Whitney U (General vs EWS),19497.5,0.0314,-0.142,rank-biserial r,"General significantly higher than EWS (U=19498, p=0.0314, r=-0.14)."
+2022,Chi-square (category representation),282.9432,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=282.94, p=0.0000)."
+2022,Linear regression written→interview [General],0.0532,0.0001,0.042,R²,"For General: slope=0.053 (p=0.0001), R²=0.042. Significant written→interview relationship."
+2022,Linear regression written→interview [OBC],-0.0576,0.0399,0.016,R²,"For OBC: slope=-0.058 (p=0.0399), R²=0.016. Significant written→interview relationship."
+2022,Linear regression written→interview [SC],-0.1176,0.0052,0.05,R²,"For SC: slope=-0.118 (p=0.0052), R²=0.050. Significant written→interview relationship."
+2022,Linear regression written→interview [ST],-0.3312,0.0,0.214,R²,"For ST: slope=-0.331 (p=0.0000), R²=0.214. Significant written→interview relationship."
+2022,Linear regression written→interview [EWS],-0.1956,0.0002,0.13,R²,"For EWS: slope=-0.196 (p=0.0002), R²=0.130. Significant written→interview relationship."
+2022,OLS Multiple Regression,11.2756,0.0,0.052,Adj. R²,"Model F=11.28 (p=0.0000), Adj.R²=0.052. Category coefficients (vs General): General=3.40, OBC=-0.95, SC=-6.88, ST=-6.13"
+2023,Levene's Test,0.898,0.4645,,,No significant difference in variances (p≥0.05).
+2023,Shapiro-Wilk [General],0.9797,0.0001,,,General interview marks are NOT normally distributed (p<0.05).
+2023,Shapiro-Wilk [OBC],0.9914,0.0761,,,OBC interview marks are approximately normal (p≥0.05).
+2023,Shapiro-Wilk [SC],0.9935,0.6754,,,SC interview marks are approximately normal (p≥0.05).
+2023,Shapiro-Wilk [ST],0.9838,0.3554,,,ST interview marks are approximately normal (p≥0.05).
+2023,Shapiro-Wilk [EWS],0.973,0.02,,,EWS interview marks are NOT normally distributed (p<0.05).
+2023,Welch t-test (General vs Reserved),7.174,0.0,0.474,Cohen's d,General mean (182.2) is significantly different from reserved mean (174.2) — d=0.47 (small effect).
+2023,One-way ANOVA,13.2987,0.0,0.05,η²,"Significant difference in mean interview marks across categories (F=13.30, p=0.0000, η²=0.050)."
+2023,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC'), ('General', 'ST')]"
+2023,Kruskal-Wallis,52.2341,0.0,,,"Significant distributional difference across categories (H=52.23, p=0.0000)."
+2023,Mann-Whitney U (General vs OBC),65941.0,0.0,-0.254,rank-biserial r,"General significantly higher than OBC (U=65941, p=0.0000, r=-0.25)."
+2023,Mann-Whitney U (General vs SC),36112.5,0.0,-0.261,rank-biserial r,"General significantly higher than SC (U=36112, p=0.0000, r=-0.26)."
+2023,Mann-Whitney U (General vs ST),19626.0,0.0,-0.315,rank-biserial r,"General significantly higher than ST (U=19626, p=0.0000, r=-0.32)."
+2023,Mann-Whitney U (General vs EWS),26024.0,0.0,-0.304,rank-biserial r,"General significantly higher than EWS (U=26024, p=0.0000, r=-0.30)."
+2023,Chi-square (category representation),263.8425,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=263.84, p=0.0000)."
+2023,Linear regression written→interview [General],-0.0629,0.0069,0.021,R²,"For General: slope=-0.063 (p=0.0069), R²=0.021. Significant written→interview relationship."
+2023,Linear regression written→interview [OBC],-0.1343,0.0,0.063,R²,"For OBC: slope=-0.134 (p=0.0000), R²=0.063. Significant written→interview relationship."
+2023,Linear regression written→interview [SC],-0.1791,0.0,0.099,R²,"For SC: slope=-0.179 (p=0.0000), R²=0.099. Significant written→interview relationship."
+2023,Linear regression written→interview [ST],-0.3732,0.0,0.313,R²,"For ST: slope=-0.373 (p=0.0000), R²=0.313. Significant written→interview relationship."
+2023,Linear regression written→interview [EWS],-0.1267,0.0263,0.043,R²,"For EWS: slope=-0.127 (p=0.0263), R²=0.043. Significant written→interview relationship."
+2023,OLS Multiple Regression,22.8156,0.0,0.097,Adj. R²,"Model F=22.82 (p=0.0000), Adj.R²=0.097. Category coefficients (vs General): General=11.12, OBC=0.67, SC=-1.34, ST=-4.13"
+2024,Levene's Test,1.681,0.1521,,,No significant difference in variances (p≥0.05).
+2024,Shapiro-Wilk [General],0.9801,0.0002,,,General interview marks are NOT normally distributed (p<0.05).
+2024,Shapiro-Wilk [OBC],0.9824,0.0006,,,OBC interview marks are NOT normally distributed (p<0.05).
+2024,Shapiro-Wilk [SC],0.9666,0.0007,,,SC interview marks are NOT normally distributed (p<0.05).
+2024,Shapiro-Wilk [ST],0.9836,0.3394,,,ST interview marks are approximately normal (p≥0.05).
+2024,Shapiro-Wilk [EWS],0.9768,0.054,,,EWS interview marks are approximately normal (p≥0.05).
+2024,Welch t-test (General vs Reserved),7.0489,0.0,0.463,Cohen's d,General mean (183.4) is significantly different from reserved mean (175.5) — d=0.46 (small effect).
+2024,One-way ANOVA,14.0063,0.0,0.0534,η²,"Significant difference in mean interview marks across categories (F=14.01, p=0.0000, η²=0.053)."
+2024,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC'), ('General', 'ST')]"
+2024,Kruskal-Wallis,48.9887,0.0,,,"Significant distributional difference across categories (H=48.99, p=0.0000)."
+2024,Mann-Whitney U (General vs OBC),63665.5,0.0,-0.232,rank-biserial r,"General significantly higher than OBC (U=63666, p=0.0000, r=-0.23)."
+2024,Mann-Whitney U (General vs SC),35155.5,0.0,-0.34,rank-biserial r,"General significantly higher than SC (U=35156, p=0.0000, r=-0.34)."
+2024,Mann-Whitney U (General vs ST),17795.5,0.0004,-0.247,rank-biserial r,"General significantly higher than ST (U=17796, p=0.0004, r=-0.25)."
+2024,Mann-Whitney U (General vs EWS),21648.5,0.001,-0.211,rank-biserial r,"General significantly higher than EWS (U=21648, p=0.0010, r=-0.21)."
+2024,Chi-square (category representation),261.5556,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=261.56, p=0.0000)."
+2024,Linear regression written→interview [General],-0.0451,0.0791,0.009,R²,"For General: slope=-0.045 (p=0.0791), R²=0.009. Non-significant written→interview relationship."
+2024,Linear regression written→interview [OBC],-0.3037,0.0,0.201,R²,"For OBC: slope=-0.304 (p=0.0000), R²=0.201. Significant written→interview relationship."
+2024,Linear regression written→interview [SC],-0.2847,0.0,0.201,R²,"For SC: slope=-0.285 (p=0.0000), R²=0.201. Significant written→interview relationship."
+2024,Linear regression written→interview [ST],-0.1267,0.023,0.059,R²,"For ST: slope=-0.127 (p=0.0230), R²=0.059. Significant written→interview relationship."
+2024,Linear regression written→interview [EWS],-0.3008,0.0,0.23,R²,"For EWS: slope=-0.301 (p=0.0000), R²=0.230. Significant written→interview relationship."
+2024,OLS Multiple Regression,31.5346,0.0,0.133,Adj. R²,"Model F=31.53 (p=0.0000), Adj.R²=0.133. Category coefficients (vs General): General=8.77, OBC=-2.70, SC=-9.83, ST=-6.35"
+2025,Levene's Test,0.3903,0.8157,,,No significant difference in variances (p≥0.05).
+2025,Shapiro-Wilk [General],0.9757,0.0,,,General interview marks are NOT normally distributed (p<0.05).
+2025,Shapiro-Wilk [OBC],0.9907,0.0484,,,OBC interview marks are NOT normally distributed (p<0.05).
+2025,Shapiro-Wilk [SC],0.9771,0.01,,,SC interview marks are NOT normally distributed (p<0.05).
+2025,Shapiro-Wilk [ST],0.9688,0.0674,,,ST interview marks are approximately normal (p≥0.05).
+2025,Shapiro-Wilk [EWS],0.9773,0.0703,,,EWS interview marks are approximately normal (p≥0.05).
+2025,Welch t-test (General vs Reserved),5.3816,0.0,0.377,Cohen's d,General mean (188.3) is significantly different from reserved mean (182.4) — d=0.38 (small effect).
+2025,One-way ANOVA,7.5498,0.0,0.0307,η²,"Significant difference in mean interview marks across categories (F=7.55, p=0.0000, η²=0.031)."
+2025,Tukey HSD (post-hoc),,,,,"Significant pairs (p≤0.05): [('General', 'OBC'), ('General', 'SC')]"
+2025,Kruskal-Wallis,31.5949,0.0,,,"Significant distributional difference across categories (H=31.59, p=0.0000)."
+2025,Mann-Whitney U (General vs OBC),59127.0,0.0,-0.219,rank-biserial r,"General significantly higher than OBC (U=59127, p=0.0000, r=-0.22)."
+2025,Mann-Whitney U (General vs SC),30704.0,0.0001,-0.226,rank-biserial r,"General significantly higher than SC (U=30704, p=0.0001, r=-0.23)."
+2025,Mann-Whitney U (General vs ST),13923.0,0.0067,-0.203,rank-biserial r,"General significantly higher than ST (U=13923, p=0.0067, r=-0.20)."
+2025,Mann-Whitney U (General vs EWS),20418.5,0.0003,-0.239,rank-biserial r,"General significantly higher than EWS (U=20418, p=0.0003, r=-0.24)."
+2025,Chi-square (category representation),269.7349,0.0,,,"Category selection distribution significantly deviates from equal representation (χ²=269.73, p=0.0000)."
+2025,Linear regression written→interview [General],-0.0156,0.5386,0.001,R²,"For General: slope=-0.016 (p=0.5386), R²=0.001. Non-significant written→interview relationship."
+2025,Linear regression written→interview [OBC],-0.1886,0.0,0.109,R²,"For OBC: slope=-0.189 (p=0.0000), R²=0.109. Significant written→interview relationship."
+2025,Linear regression written→interview [SC],-0.2517,0.0,0.187,R²,"For SC: slope=-0.252 (p=0.0000), R²=0.187. Significant written→interview relationship."
+2025,Linear regression written→interview [ST],-0.1978,0.0013,0.137,R²,"For ST: slope=-0.198 (p=0.0013), R²=0.137. Significant written→interview relationship."
+2025,Linear regression written→interview [EWS],-0.0596,0.0961,0.027,R²,"For EWS: slope=-0.060 (p=0.0961), R²=0.027. Non-significant written→interview relationship."
+2025,OLS Multiple Regression,14.7406,0.0,0.067,Adj. R²,"Model F=14.74 (p=0.0000), Adj.R²=0.067. Category coefficients (vs General): General=7.92, OBC=0.35, SC=-2.15, ST=-1.79"
