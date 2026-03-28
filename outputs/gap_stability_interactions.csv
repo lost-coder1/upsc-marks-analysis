@@ -1,0 +1,5 @@
+category,beta,se,t,p_value,ci_lo,ci_hi,significant,interpretation
+EWS,0.4541,0.4592,0.9889,0.322754,-0.4461,1.3542,False,No significant change
+OBC,-0.2855,0.3294,-0.8668,0.386085,-0.9312,0.3602,False,No significant change
+SC,0.7046,0.4003,1.7601,0.078443,-0.0802,1.4894,False,No significant change
+ST,1.522,0.5187,2.9341,0.00336,0.5051,2.539,True,Gap narrowing by 1.52 marks/year

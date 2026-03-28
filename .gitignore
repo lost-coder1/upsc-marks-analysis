@@ -3,11 +3,7 @@ __pycache__/
 *.py[cod]
 .env
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
 
-# Outputs (generated — run the notebook to reproduce)
-outputs/
 
 # macOS
 .DS_Store
